@@ -16,7 +16,7 @@ end
 #############
 
 def words_five_letters_long(text)
- .scan/\w{5}/
+ text.scan/\w{5}/
 
 end
 
