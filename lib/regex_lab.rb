@@ -7,14 +7,16 @@ end
 #the regex correctly identifies words that start with vowels.  if that array (returned by .scan) is empty, method returns false.  otherwise, it's true.  
 end
 
+################3
 
 def words_starting_with_un_and_ending_with_ing(text)
-
 text.scan(/un+\w+ing/)      
-
 end
 
+#############
+
 def words_five_letters_long(text)
+ .scan/\w{5}/
 
 end
 
