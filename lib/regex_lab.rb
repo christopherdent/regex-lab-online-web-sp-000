@@ -33,5 +33,9 @@ end
 def valid_phone_number?(phone)
   
 if phone.match (/d{3})(/d{3})(/d{4})
+  return true
+else
+  return false
+end 
 
 end
