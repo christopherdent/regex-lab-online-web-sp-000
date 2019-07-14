@@ -14,8 +14,6 @@ text.scan(/un+\w+ing/)
 
 end
 
-end
-
 def words_five_letters_long(text)
 
 end
