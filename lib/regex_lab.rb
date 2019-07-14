@@ -13,10 +13,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 text.scan(/un+\w+ing/)      
 
 end
-##this regex correctly identifies words that start with un
 
-text.scan(/\b*ing/) 
- #this regex correctly identifies words that end with ing.   How can I get Ruby to return this method as true?  
 end
 
 def words_five_letters_long(text)
